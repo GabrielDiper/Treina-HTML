@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidraçaria Vitrelli</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="cel.css">
+    <link rel="stylesheet" href="index.css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        .out-of-stock {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hd-0">
+        <ul>
+            <a href="#">
+                Home
+            </a>
+            <a href="#">
+                Minha conta
+            </a>
+            <a href="#">
+                Rastreie seu produto
+            </a>
+            <a href="#">
+                Contato
+            </a>
+        </ul>
+    </div>
+
+    <div class="con-pes">
+        <input class="search-box" type="text" placeholder="Pesquisar produtos">
+        <input class="sub" type="submit" value="Busca">
+    </div>
+    <header class="hd-1">
+        <div class="logo-desktop">
+            <a href="index.html"><img src="vidraçaria.png" alt="" width="130px"></a>
+        </div>
+        <div class="logo-mobile">
+            <a href="index.html"><img src="vidraçaria.png" alt=""></a>
+        </div>
+        <div class="divisor"></div>
+        <div id="itens">
+            <ul>
+                <li>Todos os produtos</li>
+                <li>Instruções de compra</li>
+                <li>Sobre nós</li>
+                <li>Nos acompanhe</li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="banner-principal-mob">
+        <div><a href="#"><img src="banner.png" alt="" width="100%"></a></div>
+    </div>
+
+    <div class="banner-principal-desktop">
+        <div><a href="#"><img src="banner.png" alt=""></a></div>
+    </div>
+    <div class="s1">
+        <h1 data-aos="fade-up">Categorias</h1>
+    </div>
+
+    <section class="categorias" data-aos="fade-up">
+        <section class="categoria1" data-id="1" data-name="Temperados" data-price="100.00" data-stock="10">
+            <a href="#"><img src="temperados.png" alt="" width="65.00" height="65.00"></a>
+            <p>Temperados</p>
+            <p>Preço: R$ 100.00</p>
+            <p>Estoque: <span class="stock">10</span></p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </section>
+        <section class="categoria1" data-id="2" data-name="Laminados" data-price="150.00" data-stock="5">
+            <a href="#"><img src="Laminados.png" alt="" width="65.00" height="65.00"></a>
+            <p>Laminados</p>
+            <p>Preço: R$ 150.00</p>
+            <p>Estoque: <span class="stock">5</span></p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </section>
+        <section class="categoria1" data-id="3" data-name="Extra Clear" data-price="200.00" data-stock="8">
+            <a href="#"><img src="clear.png" alt="" width="65.00" height="65.00"></a>
+            <p>Extra Clear</p>
+            <p>Preço: R$ 200.00</p>
+            <p>Estoque: <span class="stock">8</span></p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </section>
+        <section class="categoria1" data-id="4" data-name="Laminado de Temperado" data-price="250.00" data-stock="3">
+            <a href="#"><img src="temperado-laminado.png" alt="" width="65.00" height="65.00"></a>
+            <p>Laminado de Temperado</p>
+            <p>Preço: R$ 250.00</p>
+            <p>Estoque: <span class="stock">3</span></p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </section>
+        <section class="categoria1" data-id="5" data-name="Refletivo" data-price="300.00" data-stock="6">
+            <a href="#"><img src="refletivo.png" alt="" width="65.00" height="65.00"></a>
+            <p>Refletivo</p>
+            <p>Preço: R$ 300.00</p>
+            <p>Estoque: <span class="stock">6</span></p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </section>
+        <section class="categoria1" data-id="6" data-name="Pintado" data-price="350.00" data-stock="2">
+            <a href="#"><img src="vidro-pintado.png" alt="" width="65.00" height="65.00"></a>
+            <p>Pintado</p>
+            <p>Preço: R$ 350.00</p>
+            <p>Estoque: <span class="stock">2</span></p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </section>
+    </section>
+
+    <h2>Carrinho de Compras</h2>
+    <a href="#"><img src="carrinho.png" alt="" width="5%"></a>
+    <div class="cart">
+        <ul id="cart-items">
+        </ul>
+        <p>Total: R$ <span id="cart-total">0.00</span></p>
+        <button id="clear-cart">Limpar Carrinho</button>
+    </div>
+
+    <div class="banner-principal-mob" data-aos="fade-up">
+        <div><a href="#"><img src="bannner 2.jpeg" alt="" width="100%"></a></div>
+    </div>
+
+    <div class="banner-principal-desktop" data-aos="fade-up">
+        <div><a href="#"><img src="bannner 2.jpeg" alt=""></a></div>
+    </div>
+
+    <div class="fil" data-aos="fade-up">
+        <div class="fil1">
+            <img src="caminha2.png" alt="" width="80px" height="80px">
+            <p>Frete rápido</p>
+            <h2>Para todo o Brasil</h2>
+        </div>
+        <div class="fil1">
+            <img src="12x.png" width="80px" height="80px" alt="">
+            <p>Parcele sua compra</p>
+            <h2>Em até 12x</h2>
+        </div>
+        <div class="fil1">
+            <img src="compra.png" alt="" width="80px" height="80px">
+            <p>Compra segura</p>
+            <h2>Seus dados protegidos</h2>
+        </div>
+        <div class="fil1">
+            <img src="png-transparent-cargo-logo-truck-9-steps-angle-freight-transport-text.png" alt="" width="80px" height="80px">
+            <p>Pedido monitorado</p>
+            <h2>Código de rastreamento</h2>
+        </div>
+    </div>
+    <footer class="rodape" data-aos="fade-up">
+        <div class="rodape1">
+            <h1>Institucional</h1>
+            <p>Instruções</p>
+            <p>Contato</p>
+            <p>Sobre nós</p>
+        </div>
+        <div class="rodape1">
+            <h1>Políticas</h1>
+            <p>Política de privacidade</p>
+            <p>Termos e condições</p>
+            <p>Política de devolução</p>
+        </div>
+        <div class="rodape1">
+            <h1>Pedidos</h1>
+            <p>Acompanhe seu pedido</p>
+            <p>Editar cadastro</p>
+        </div>
+        <div class="rodape1">
+            <h1>Formas de pagamento</h1>
+            <div class="bandeiras">
+                <img src="visa-electron.png" alt="formas de pagamento" width="248" height="47">
+                <img src="formas-de-pagamento2.png" alt="formas de pagamento" width="248" height="65">
+            </div>
+        </div>
+        <div class="rodape1">
+            <h1>Contato</h1>
+            <p>gabrieldiogo179@gmail.com</p>
+            <p>(16) 981646363 </p>
+            <img class="cer" src="certificado.png" alt="certificado de segurança" width="168" height="80">
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> <script> AOS.init(); </script> <script src="js.js"></script>
+    
+</body>
+
+</html>
