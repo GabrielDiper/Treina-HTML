@@ -1,0 +1,344 @@
+@media screen and (min-width: 992px) and (max-width: 4000px) {
+    .hd-0 {
+        width: 100%;
+        height: 51px;
+        background-color: #01b920;
+        display: flex;
+        align-items: center;
+    }
+
+    .hd-0 a {
+        margin-left: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .logo-mobile {
+        display: none;
+    }
+
+    .logo-desktop {
+        display: block;
+        position: relative;
+        left: 90px;
+        cursor: pointer;
+    }
+
+    .hd-0 a:hover {
+        border-bottom: 3px solid black;
+    }
+
+    .hd-1 {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 0px;
+    }
+
+    #icon {
+        display: none;
+    }
+
+    #itens {
+        display: block;
+    }
+
+    #itens li {
+        background-color: transparent;
+        display: inline-block;
+        margin-left: 38px;
+        font-size: 17px;
+        color: black;
+    }
+
+    #itens ul li:hover {
+        color: #01b920;
+    }
+
+    #itens ul {
+        text-align: center;
+        margin-top: 50px;
+        margin-right: 290px;
+    }
+
+    #itens li:hover {
+        background-color: transparent;
+        color: black;
+        transition: all 0.3s;
+    }
+
+    .banner-principal-desktop img {
+        display: block;
+        width: 100%;
+        margin-top: 100px;
+        height: 100%;
+    }
+
+    .banner-principal-mob {
+        display: none;
+    }
+
+    .search-box {
+        display: flex;
+        position: relative;
+        top: 60px;
+        right: 20px;
+    }
+
+    input.search-box {
+        width: 550px;
+        height: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        border-radius: 30px;
+        outline: none;
+        border: 1px #01b920 solid;
+        position: relative;
+        left: 60px;
+       
+        
+    }
+
+    input.search-box::placeholder {
+        position: relative;
+        left: 7px;
+    }
+
+    .sub {
+        display: flex;
+        position: relative;
+        top: 120px;
+    }
+
+    input.sub {
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-color: #27dc42;
+
+        position: relative;
+        top: 59px;
+        left: 20px;
+        cursor: pointer;
+        width: 50px;
+        height: 42px;
+        font-family: 'Montserrat', sans-serif;
+        border-bottom-right-radius: 80px;
+        border-top-right-radius: 50px;
+        outline: none;
+    }
+
+    .categorias {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 110px;
+        padding-right: 110px;
+        flex-wrap: wrap;
+    }
+
+    .categoria1 {
+        border: auto;
+        box-shadow: 0px 0px 5px 0px rgba(13, 214, 40, 0.17);
+        padding: 20px 10px 10px 10px;
+        width: 250px;
+        flex-direction: row;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    .categoria1 p {
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+    }
+
+    .categoria1:hover {
+        border-bottom: 8px solid #01b920;
+        transition: 0.3s;
+    }
+
+    .categoria1 img {
+        margin-left: 100px;
+        border-radius: 100px;
+    }
+
+    .rodape {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .rodape1 {
+        margin: 0 30px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .rodape1 h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #171717;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+
+    .rodape1 p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        color: #171717;
+        font-weight: 400;
+        cursor: pointer;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+
+    .rodape1 p a {
+        color: #171717;
+        text-decoration: none;
+    }
+
+    .rodape1 p a:hover {
+        text-decoration: underline;
+    }
+
+    .bandeiras {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .bandeiras img {
+        margin: 0 10px;
+    }
+
+    .cer {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .fim {
+        background-color: #01b920;
+        height: 242px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fim p {
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        line-height: 35px;
+    }
+
+    /* Carrinho */
+    #cart {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .cart-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .cart-item p {
+        margin: 0;
+    }
+
+    .cart-item button {
+        padding: 5px 10px;
+        font-size: 12px;
+        color: white;
+        background-color: #01b920;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .cart-item button:hover {
+        background-color: #01b920;
+    }
+}
+
+@media screen and (min-width: 1077px) and (max-width: 1264px) {
+    #itens li {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    #itens ul {
+        position: relative;
+        left: 30px;
+    }
+
+    .con-pes {
+        position: relative;
+        left: 70px;
+    }
+
+    .logo-desktop {
+        position: relative;
+        left: 40px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1076px) {
+    .con-pes {
+        position: relative;
+        left: 80px;
+    }
+
+    #itens li {
+        font-size: 15px;
+        margin-left: 7px;
+    }
+
+    #itens ul {
+        position: relative;
+        left: 50px;
+    }
+
+    .logo-desktop {
+        position: relative;
+        left: 80px;
+    }
+}
+
+@media screen and (min-width: 494px) and (max-width: 730px) {
+    .fil1 {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 2400px) and (max-width: 4000px) {
+    #itens ul {
+        margin-right: 800px;
+    }
+
+    input.search-box {
+        width: 800px;
+    }
+
+    input.sub {
+        position: relative;
+        left: 300px;
+    }
+}
